@@ -18,7 +18,7 @@ export default function Hero(props){
 
                 <p className="city-name">{props.item.location}</p>
 
-                <a href={props.item.googleMap} className="maps">View on Google Maps</a>
+                <a href={props.item.googleMapsUrl} className="maps">View on Google Maps</a>
                 </div>
 
                 <h1>{props.item.title}</h1>

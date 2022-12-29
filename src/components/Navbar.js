@@ -1,4 +1,4 @@
-import react from "react"
+// import react from "react"
 
 
 export default function Navbar (){
@@ -7,7 +7,7 @@ export default function Navbar (){
         <nav className="navBar">
             
             
-            <img src="https://img.icons8.com/ultraviolet/512/globe.png" className="nav--icon"/>
+            <img src="https://img.icons8.com/ultraviolet/512/globe.png" alt="icon" className="nav--icon"/>
             
             
            <span className="title"> my travel journal</span>
