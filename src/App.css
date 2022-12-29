@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+nav{
+  height: 55px;
+  width: 550px;
   color: white;
+  background-color:#F55A5A;
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: center;
+  /* box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1); */
+
+}
+.globe--icon{
+  height: 22px;
+  width: 20px;
+}
+.title{
+  position: absolute;
+  top: 30px;
+  font-family:Inter;
+  letter-spacing: 3px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.App{
+ background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+  background: white;
+  
+  width: 550px;
+ 
+}
+.town--img{
+  border-radius: 5px;
+  height: 166px;
+  width:128px ;
+}
+.card--body{
+  display: flex;
+  padding: 20px;
+  height: 166px;
+
+}
+.box-1{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 15px;
+  gap: 5px;
+}
+.loc--icon{
+  /* position: absolute; */
+  height: 20px;
+  width: 22px;
+  /* top: 93px; */
+}
+.maps{
+  font-size: 12.24px;
+  color: #918E9B;
+  text-decoration: underline;
+  margin-left: 8px;
+ 
+}
+.card--details{
+
+  padding: 15px;
+}
+.city-name{
+  height: 15px;
+  font-weight: 400px;
+ margin-left: -6px;
+font-size: 12px;
+letter-spacing: 4px;
+
+}
+h1{
+  /* font-weight: bolder; */
+  font-size: 25px;
+  height: 32px;
+/* padding-top: 0px; */
+margin: 4px 8px;
+ font-family: 'Inter';
+}
+.date{
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 9px;
+  margin: 10px 8px;
+}
+.description{
+  font-size: 10.24px;
+  line-height: 15px;
+  width: 345px;
+  margin-left: 8px;
+ 
+}
+section{
+  overflow-y: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav--icon{
+  height: 22px;
+  width: 24px;
 }
